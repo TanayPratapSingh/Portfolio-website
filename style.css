@@ -242,7 +242,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "What I provide";
+    content: "What's going on";
 }
 .services .serv-content .card{
    width: calc(33% - 20px); 
@@ -355,7 +355,13 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "what have I done";
+}
+.teams .carousel .card a{
+    color: #fff;
+}
+.teams .carousel .card a:hover{
+    text-decoration: underline;
 }
 .teams .carousel .card{
     background: #222;
@@ -382,6 +388,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
