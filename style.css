@@ -139,6 +139,21 @@ html{
     color: crimson;
     background: none;
 }
+.home .social-media i{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.home .social-media a{
+    color: white;
+}
+.home .social-media a:hover{
+    color: crimson;
+}
+.home .social-media i:hover{
+    cursor: pointer;
+    color: crimson;
+    display: inline-block;
+}
 
 /* All similar content styling code */
 section{
@@ -523,11 +538,20 @@ footer{
     color: #fff;
 }
 footer span a{
+    display: inline-block;
     color: crimson;
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
+}
+footer .socialmedia span a{
+    color: white;
+    display: inline-block;
+}
+footer .socialmedia span a:hover{
+    cursor: pointer;
+    color: crimson;
 }
 
 
